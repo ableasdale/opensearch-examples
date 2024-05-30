@@ -51,6 +51,12 @@ Or to limit by a specific index:
 http://localhost:9200/_cat/indices/sample-index?v
 ```
 
+Retrieve a doc from a given index:
+
+```bash
+http://localhost:9200/sample-index/_doc/1
+```
+
 
 Access the OpenSearch dashboard at: <http://localhost:5601/>
 
